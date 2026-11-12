@@ -1,0 +1,20 @@
+# Environments & Secrets
+.venv/
+.env
+*.env
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Node / React artifacts
+frontend/node_modules/
+frontend/dist/
+
+# Cloud & Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# OS specific
+.DS_Store
